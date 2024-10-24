@@ -1,0 +1,4 @@
+- go run NOMBRE (Correrlo)
+- go build NOMBRE (Hacerle el .exe)
+- go mod init NOMBRE (Iniciar manejador de modulos)
+- go get RUTA (traer un modulo)
