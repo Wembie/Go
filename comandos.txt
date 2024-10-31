@@ -1,4 +1,9 @@
-- go run NOMBRE (Correrlo)
+- go run NOMBRE (Correrlo) || go run .
 - go build NOMBRE (Hacerle el .exe)
+- go build -o NOMBRE_DESEADO RUTA_ARCHIVO (Hace el .exe con otro nombre)
 - go mod init NOMBRE (Iniciar manejador de modulos)
-- go get RUTA (traer un modulo)
+- go mod tidy (Para instalar o quitar los paquetes faltantes del proyecto)
+- go mod edit -replace NUEVA_RUTA (Para editar donde se localiza el modulador)
+- go get RUTA (Traer un modulo)
+- go test (Busca todos los test y los ejecuta)
+- go test -v (Informacion mas detallada)
